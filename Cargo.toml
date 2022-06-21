@@ -1,0 +1,13 @@
+[package]
+name = "ktisis-gui"
+version = "0.1.0"
+authors = ["chirp (github.com/chrpy)"]
+repository = "https://github.com/ktisis-tools/ktisis-gui"
+edition = "2021"
+
+[dependencies]
+ktisis = { git = "https://github.com/ktisis-tools/ktisis-lib" }
+egui = "^0.18.1"
+egui_extras = "^0.18.0"
+eframe = { version = "^0.18.0", features = [] }
+native-dialog = "^0.6.3"
